@@ -1,7 +1,7 @@
 # EEND_PyTorch
 A PyTorch implementation of [End-to-End Neural Diarization](https://ieeexplore.ieee.org/document/9003959).
 
-This repo is largely based on the original chainer implementation [EEND](https://github.com/hitachi-speech/EEND) by [Hitachi Ltd.](https://github.com/hitachi-speech), who helds the copyright.
+This repo is largely based on the original chainer implementation [EEND](https://github.com/hitachi-speech/EEND) by [Hitachi Ltd.](https://github.com/hitachi-speech), who holds the copyright.
 
 This repo only includes the training/inferring part. If you are looking for data preparation, please refer to the [original authors' repo](https://github.com/hitachi-speech/EEND/blob/master/egs/callhome/v1/run_prepare_shared.sh).
 
