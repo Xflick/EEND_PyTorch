@@ -8,7 +8,7 @@ This repo only includes the training/inferring part. If you are looking for data
 ## Note
 Only Transformer model with PIT loss is implemented here. And I can only assure the main pipeline is correct. Some side stuffs (such as save_attn_weight, BLSTM model, deep clustering loss, etc.) are either not implemented correctly or not implemented.
 
-Actually the orignal chainer code reserves the pytorch interface, I may consider have a pull request after the code is well-polished.
+Actually the orignal chainer code reserves the pytorch interface, I may consider make a merge request after the code is well-polished.
 
 ## Run
 1. Prepare your kaldi-style data and modify `run.sh` according to your own directories.
