@@ -29,6 +29,9 @@ We miss the SwitchBoard Phase 1 for training data, so the results can be a littl
 | Chainer (run on our data) | 2 | 25k | 9.78 | 14.85 |
 | PyTorch (epoch 50 on simu) | 2 | 25k | 10.14 | 15.72 |
 | PyTorch | 4 | 100k | 6.76 | 11.21 |
+| PyTorch\* | 4 | 100k | - | 9.35 |
+
+(\* run on full training data, credit to my great colleague!)
 
 ## Citation
 Cite their great papers!
