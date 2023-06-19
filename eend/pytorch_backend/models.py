@@ -89,8 +89,8 @@ class TransformerModel(nn.Module):
     def forward(self, src, has_mask=False, activation=None):
         if has_mask:
             device = src.device
-            if self.src_mask is None or self.src_mask.size(0) != srz.size(1):
-                mask = self._generate_square_subsequent_mask(srz.size(1)).to(device)
+            if self.src_mask is None or self.src_mask.size(0) != src.size(1):
+                mask = self._generate_square_subsequent_mask(src.size(1)).to(device)
                 self.src_mask = mask
         else:
             self.src_mask = None
